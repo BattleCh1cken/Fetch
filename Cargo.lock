@@ -39,9 +39,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "columns"
+version = "0.1.0"
+source = "git+https://github.com/S0raWasTaken/Columns?branch=master#d3d565691ab042ebfab02b6728904eca57013113"
+
+[[package]]
 name = "fetch"
 version = "0.1.0"
 dependencies = [
+ "columns",
  "systemstat",
  "whoami",
 ]
